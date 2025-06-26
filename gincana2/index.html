@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel de Saúde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Painel de Saúde da Clínica</h1>
+        <button onclick="gerarRelatorio()">Gerar Relatório</button>
+        <table id="resultado">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>IMC</th>
+                    <th>Classificação</th>
+                </tr>
+            </thead>
+            <tbody id="corpo-tabela">
+                </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
